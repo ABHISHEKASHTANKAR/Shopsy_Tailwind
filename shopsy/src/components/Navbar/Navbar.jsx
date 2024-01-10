@@ -94,7 +94,7 @@ const Navbar = () => {
             </div>
             {/* Lowe Navbar */}
             <div>
-                <ul className='shadow-md justify-center gap-20 py-3 items-center
+                <ul className='shadow-md justify-center gap-10 md:gap-20 py-3 items-center
                 text-slate-500 font-[400] hidden sm:flex dark:text-white'>
                     {
                         Menu.map((item)=>{
